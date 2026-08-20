@@ -1,0 +1,25 @@
+{
+  "name": "sello/qr",
+  "description": "Librería QR sin dependencias. SVG, PNG y base64.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["qr", "qrcode", "sello"],
+  "authors": [
+    {
+      "name": "Jesus",
+      "email": "jesusvldev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "jesusvldev@gmail.com"
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sello\\": "src/"
+    }
+  }
+}
